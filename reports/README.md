@@ -5,8 +5,9 @@ This folder contains all written components of the project.  These can be PDFs o
 ## Structure
 ```text
 report/
-├── 01_part1_and_slide.pdf # Slides for part1, including: Question of interest, background, motivation, data sources, initial exploration
-├── 02_analysis_results_discussion.pdf  # Analysis plan, findings and figures, interpetation, limitations, conclusions to be shown in the future!
+├── 01_part1_slides.pdf # Slides for part1, including: Question of interest, background, motivation, data sources, initial exploration
+├── 01_part1_report.pdf # Report in part1, more comprehensive version than slide!
+├── # Analysis plan, findings and figures, interpetation, limitations, conclusions to be shown in the future!
 ```
 
 ## Key Point!
