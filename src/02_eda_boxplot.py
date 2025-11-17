@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
+import os
 
 # -------------------------------------------------
 # 1. Load data
@@ -47,10 +48,8 @@ plt.title("Average Score by Study Hours Quartile")
 plt.xlabel("Study Hours Quartile")
 plt.ylabel("Average Score")
 plt.tight_layout()
-plt.show()
 # If you want to save instead of show:
-# plt.savefig("boxplot_study.pdf")
-# plt.close()
+plt.savefig(os.path.join(PROJECT_ROOT,"results","figures","boxplot_study.pdf"))
 
 # -------------------------------------------------
 # 4. Boxplot: average score by absence-days quartile
@@ -69,6 +68,4 @@ plt.xlabel("Absence Days Quartile")
 plt.ylabel("Average Score")
 plt.tight_layout()
 plt.show()
-# If you want to save it:
-# plt.savefig("boxplot_absence.pdf")
-# plt.close()
+plt.savefig(os.path.join(PROJECT_ROOT,"results","figures","boxplot_absence.pdf"))
