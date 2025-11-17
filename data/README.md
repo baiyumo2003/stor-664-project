@@ -10,7 +10,7 @@ We keep **raw data** (as originally provided) separate from **processed data** (
 ```text
 data/
 ├─ raw/          # Unmodified source data
-│  └─ student-scores.csv
+│  ├─ student-scores.csv
 │  └─ student-scores.zip # original
 └─ processed/    # Cleaned data ready for modeling
    └─ student_scores_clean.csv
