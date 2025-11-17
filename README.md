@@ -36,9 +36,6 @@ pip install -r requirements.txt
 ```
 
 ### 3. Running Analysis Scripts
-```r
-Rscript scripts/03_generate_figures.R
-```
 
 ---
 
