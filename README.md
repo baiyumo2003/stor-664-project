@@ -81,10 +81,10 @@ For example:
 # stor-664-project-sample
 
 ## Team Members
-- Member 1 (@user1)
-- Member 2 (@user2)
-- Member 3 (@user3)
-- Member 4 (@user4)
+- Suhan Liu(@suhanliu)
+- Yumo Bai(@baiyumo2003)
+- Beichen Wan(@wanbch3)
+- Xu Huang(@XuHuang38)
 
 ## Overview
 This repository contains the group project for [STOR 664, Fall 2025].  
@@ -94,9 +94,9 @@ Results show ...
 ## Repository Structure
 | Folder | Purpose | Key Files |
 |---------|----------|-----------|
-| `/data/raw` | Original unmodified datasets | `data1.csv`, `data2.csv` |
-| `/data/processed` | Cleaned datasets ready for analysis | `merged_data.rds` |
-| `/src` | Analysis and visualization code | `02_fit_models.R`, `03_generate_figures.R` |
+| `/data/raw` | Original unmodified datasets | `student-scores.csv`, `data2.csv` |
+| `/data/processed` | Cleaned datasets ready for analysis | `student_scores_clean.csv` |
+| `/src` | Analysis and visualization code | `01_load_data.py`, `03_generate_figures.R` |
 | `/results/tables` | Numeric summaries | `model_performance.csv` |
 | `/results/figures` | Visual outputs | `figure1.png` |
 | `/report` | All written deliverables | `01_introduction.md`, `final_report.qmd` |
@@ -110,11 +110,6 @@ cd stor-664-project-sample
 ```
 
 ### 2. Install dependencies (optional but highly recommended)
-Example in R:
-```r
-renv::restore()
-```
-
 Example in Python:
 ```python
 pip install -r requirements.txt
