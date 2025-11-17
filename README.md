@@ -27,7 +27,7 @@ The repository includes all code used for data processing, visualization, and mo
 ### 1. Clone the repository
 
 ```bash
-git clone baiyumo2003/stor-664-project
+git clone baiyumo2003/stor-664-project.git
 cd stor-664-project
 ```
 
