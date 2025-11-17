@@ -14,7 +14,7 @@ Results show ...
 ## Repository Structure
 | Folder | Purpose | Key Files |
 |---------|----------|-----------|
-| `/data/raw` | Original unmodified datasets | `student-scores.csv`, `data2.csv` |
+| `/data/raw` | Original unmodified datasets | `student-scores.csv`|
 | `/data/processed` | Cleaned datasets ready for analysis | `student_scores_clean.csv` |
 | `/src` | Analysis and visualization code | `01_load_data.py` |
 | `/results/tables` | Numeric summaries |  |
