@@ -5,9 +5,10 @@ This folder contains all written components of the project.  These can be PDFs o
 ## Structure
 ```text
 report/
-├── 01_introduction_and_exploration.pdf # Question of interest, background, motivation, data sources, initial exploration
-├── 02_analysis_results_discussion.pdf  # Analysis plan, findings and figures, interpetation, limitations, conclusions
+├── 01_part1_slides.pdf # Slides for part1, including: Question of interest, background, motivation, data sources, initial exploration
+├── 01_part1_report.pdf # Report in part1, more comprehensive version than slide!
+├── # Analysis plan, findings and figures, interpetation, limitations, conclusions to be shown in the future!
 ```
 
-## Expectations
-- Each file should also be uploaded to Gradescope for grading. 
+## Key Point!
+- Each file will also be uploaded to Gradescope for grading!

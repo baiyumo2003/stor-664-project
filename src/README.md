@@ -6,7 +6,7 @@ This folder contains all code used in the project.
 ```text
 src/
 ├── 01_load_data.R        # Data import and cleaning
-├── 02_eda.R              # Explore the data, make new datasets as needed 
+├── 02_eda_boxplot.R              # Explore the data through boxplot 
 ├── 03_fit_models.R       # Model fitting and statistical analysis
 ├── 04_generate_figures.R # Visualization and table generation
 ```
