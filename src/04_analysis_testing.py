@@ -110,7 +110,7 @@ print("========================================")
 print(test_extra)
 
 # -------------------------------------------------
-# 6. (Optional) Joint test of all three coefficients
+# 6.Joint test of all three coefficients
 # -------------------------------------------------
 # If you also want to test the joint null that all three
 # key predictors have no effect:
