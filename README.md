@@ -23,7 +23,7 @@ The repository includes all code used for data processing, visualization, and mo
 | `/data/processed`  | Cleaned datasets ready for analysis                  | `student_scores_clean.csv`                                                              |
 | `/src`             | Analysis and visualization code                      | `01_load_data.py`, `02_eda_boxplot.py`, `03_eda_continuum.py`, `04_analysis_testing.py` |
 | `/results`         | Plots and visualizations                             | *(auto-generated)*                                                                      |
-| `/report`          | Written deliverables, including final project report | *(in progress)*                                                                         |
+| `/report`          | Written deliverables, including final project report | `01_part1_report.pdf`, `01_part1_slides.pdf`, `02_part2_report.pdf`                                                                        |
 
 ## Running the Project
 
