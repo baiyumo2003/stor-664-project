@@ -21,7 +21,7 @@ The repository includes all code used for data processing, visualization, and mo
 | `/src` | Analysis and visualization code | `01_load_data.py` |
 | `/results/tables` | Numeric summaries |  |
 | `/results/figures` | Visual outputs |  |
-| `/report` | All written deliverables | |
+| `/report` | All written deliverables |  `01_part1_report.pdf`  `02_part2_report.pdf`|
 ---
 
 
