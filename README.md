@@ -22,23 +22,6 @@ The repository includes all code used for data processing, visualization, and mo
 | `/results/tables` | Numeric summaries |  |
 | `/results/figures` | Visual outputs |  |
 | `/report` | All written deliverables | |
-
-## Getting Started
-### 1. Clone the repository
-
-```bash
-git clone baiyumo2003/stor-664-project.git
-cd stor-664-project
-```
-
-### 2. Install dependencies (optional but highly recommended)
-Example in Python:
-```python
-pip install -r requirements.txt
-```
-
-### 3. Running Analysis Scripts
-
 ---
 
 
