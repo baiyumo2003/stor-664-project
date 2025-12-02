@@ -1,7 +1,6 @@
 # Report Folder
 
-This folder contains all written components of the project.  These can be PDFs of the two parts of your report. If you wish, you can also include the source files used to generate the reports, but this is optional.
-
+This folder contains all written components of the project. 
 ## Structure
 ```text
 report/
