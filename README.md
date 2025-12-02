@@ -13,15 +13,53 @@ Our analysis is based primarily on multiple linear regression and related regres
 
 The repository includes all code used for data processing, visualization, and modeling (written in python), as well as the final project report. As we refine our models, we will update this repository with our main empirical findings and interpretation, highlighting which aspects of student behavior appear most strongly related to academic performance
 
+
 ## Repository Structure
-| Folder | Purpose | Key Files |
-|---------|----------|-----------|
-| `/data/raw` | Original unmodified datasets | `student-scores.csv`|
-| `/data/processed` | Cleaned datasets ready for analysis | `student_scores_clean.csv` |
-| `/src` | Analysis and visualization code | `01_load_data.py` |
-| `/results/tables` | Numeric summaries |  |
-| `/results/figures` | Visual outputs |  |
-| `/report` | All written deliverables |  `01_part1_report.pdf`  `02_part2_report.pdf`|
----
+
+| Path               | Purpose                                              | Key Files                                                                               |
+| ------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `/`                | Top-level project directory                          | `README.md`, `run.bash`, `requirements.txt`                                             |
+| `/data/raw`        | Original unmodified datasets                         | `student-scores.csv`                                                                    |
+| `/data/processed`  | Cleaned datasets ready for analysis                  | `student_scores_clean.csv`                                                              |
+| `/src`             | Analysis and visualization code                      | `01_load_data.py`, `02_eda_boxplot.py`, `03_eda_continuum.py`, `04_analysis_testing.py` |
+| `/results`         | Plots and visualizations                             | *(auto-generated)*                                                                      |
+| `/report`          | Written deliverables, including final project report | *(in progress)*                                                                         |
+
+## Running the Project
+
+### Using `run.bash`
+
+The repository includes a `run.bash` script to streamline execution of the full analysis pipeline.
+
+**Usage:**
+
+```bash
+bash run.bash
+```
+
+This script typically:
+
+* Creates necessary folders
+* Runs all scripts in `/src` in order
+* Generates outputs in `/results`
+
+Make sure you have execution permissions:
+
+```bash
+chmod +x run.bash
+```
+
+## Requirements
+
+All Python dependencies are listed in `requirements.txt`.
+
+**To install:**
+
+```bash
+pip install -r requirements.txt
+```
+
+
+All code in `/src` is written in Python and structured for reproducibility. Outputs from each stage (cleaned datasets, figures, and tables) are saved into the corresponding `/results` subdirectories.
 
 
