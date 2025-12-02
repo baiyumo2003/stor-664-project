@@ -1,18 +1,39 @@
 # Source Code Folder (`/src`)
 
-This folder contains all code used in the project.
+This folder contains all scripts used in the project.
 
-## Example Structure
-```text
+## Structure
+
+```
 src/
-├── 01_load_data.R        # Data import and cleaning
-├── 02_eda_boxplot.R              # Explore the data through boxplot 
-├── 03_fit_models.R       # Model fitting and statistical analysis
-├── 04_generate_figures.R # Visualization and table generation
+├── 01_load_data.py        # Data import and cleaning
+├── 02_eda_boxplot.py      # Exploratory Data Analysis using boxplots
+├── 03_eda_continuum.py    # Additional EDA focusing on continuum analysis
+├── 04_analysis_testing.py # Final analysis and testing scripts
 ```
 
-## Expectations
-- Scripts should start with a number, e.g. 01, 02, indicating the order in which they should be run.
-- Each script should be self-contained and reproducible.  
-- Include comments!  
-- Scripts should save outputs (tables, figures) to `/results` as needed.
+## Script Responsibilities
+
+### **01_load_data.py**
+
+* Reads raw data files.
+* Cleans and preprocesses data.
+* Saves cleaned datasets to the `data/` or `results/` directory.
+
+### **02_eda_boxplot.py**
+
+* Conducts exploratory data analysis using boxplots.
+* Generates visual summaries and descriptive statistics.
+* Saves figures to the `results/` directory.
+
+### **03_eda_continuum.py**
+
+* Performs additional EDA focused on continuum-related insights.
+* Produces plots or summary tables.
+* Outputs saved to `results/`.
+
+### **04_analysis_testing.py**
+
+* Runs final analyses, model testing, or evaluation procedures.
+* Produces tables, figures, or summaries stored in `results/`.
+
