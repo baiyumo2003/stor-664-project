@@ -65,6 +65,7 @@ print(model.summary())
 # -----------------------------
 test_study = model.t_test("weekly_self_study_hours = 0")
 test_absence = model.t_test("absence_days = 0")
+test_absence_cut = model.t_test("absence_over_cutoff = 0")
 test_extra = model.t_test("extra_participation = 0")
 test_interaction = model.t_test("absence_study_interaction = 0")
 
@@ -79,12 +80,17 @@ print("========================================")
 print(test_absence)
 
 print("\n========================================")
-print("Test for H0,3: Effect of extracurricular participation")
+print("Test for H0,3: Effect of absence cutoff")
+print("========================================")
+print(test_absence_cut)
+
+print("\n========================================")
+print("Test for H0,4: Effect of extracurricular participation")
 print("========================================")
 print(test_extra)
 
 print("\n========================================")
-print("Test for H0,4: Interaction effect (absence_cutoff × study hours)")
+print("Test for H0,5: Interaction effect (absence_cutoff × study hours)")
 print("========================================")
 print(test_interaction)
 
