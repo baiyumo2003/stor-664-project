@@ -1,5 +1,5 @@
 
-# stor-664-project
+# Stor-664-project
 ## Team Members
 - Suhan Liu(@suhanliu)
 - Yumo Bai(@baiyumo2003)
